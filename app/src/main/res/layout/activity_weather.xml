@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/weather_background"
+    android:gravity="center_horizontal"
+    tools:context=".WeatherActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather App"
+        android:textSize="26sp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:hint="Enter city name"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonFetch"
+        android:layout_width="250dp"
+        android:layout_marginStart="40dp"
+        android:layout_height="wrap_content"
+        android:text="Get Weather"
+        android:textAllCaps="false"
+        android:backgroundTint="#0D47A1"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather Info Will Apear Here"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:textColor="#DCC930"
+        android:textStyle="bold"
+        android:elevation="2dp"/>
+
+
+</LinearLayout>

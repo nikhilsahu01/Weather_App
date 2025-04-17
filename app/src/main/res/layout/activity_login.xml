@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:autofillHints="emailAddress"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_email2"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:autofillHints="password"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/password2"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="@string/login"/>
+
+    <TextView
+        android:id="@+id/goToSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/don_t_have_an_account_signup2"
+        android:textSize="15sp"/>
+
+</LinearLayout>

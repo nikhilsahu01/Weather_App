@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="enter_email">Enter email</string>
+    <string name="password">Password</string>
+    <string name="signup">signup</string>
+    <string name="already_have_an_acoount_login">Already have an acoount? Login</string>
+    <string name="enter_email2">Enter email</string>
+    <string name="password2">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_signup">Don\'t have an account signUP</string>
+    <string name="don_t_have_an_account_signup2">don_t_have_an_account_signup</string>
+</resources>
